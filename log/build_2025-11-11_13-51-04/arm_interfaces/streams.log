@@ -1,0 +1,226 @@
+[0.010s] Invoking command in '/home/shreyas/arm/build/arm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shreyas/arm/src/arm_interfaces -DCMAKE_INSTALL_PREFIX=/home/shreyas/arm/install/arm_interfaces
+[0.104s] -- The C compiler identification is GNU 13.3.0
+[0.156s] -- The CXX compiler identification is GNU 13.3.0
+[0.171s] -- Detecting C compiler ABI info
+[0.245s] -- Detecting C compiler ABI info - done
+[0.251s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.251s] -- Detecting C compile features
+[0.251s] -- Detecting C compile features - done
+[0.260s] -- Detecting CXX compiler ABI info
+[0.341s] -- Detecting CXX compiler ABI info - done
+[0.349s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.349s] -- Detecting CXX compile features
+[0.349s] -- Detecting CXX compile features - done
+[0.353s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.463s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.565s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.573s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.629s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.680s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.115s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.901s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.906s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.004s] -- Found PythonExtra: /usr/bin/python3  
+[2.300s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.331s] -- Configuring done (2.3s)
+[2.350s] -- Generating done (0.0s)
+[2.357s] -- Build files have been written to: /home/shreyas/arm/build/arm_interfaces
+[2.363s] Invoked command in '/home/shreyas/arm/build/arm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shreyas/arm/src/arm_interfaces -DCMAKE_INSTALL_PREFIX=/home/shreyas/arm/install/arm_interfaces
+[2.363s] Invoking command in '/home/shreyas/arm/build/arm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shreyas/arm/build/arm_interfaces -- -j20 -l20
+[2.402s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.410s] [  2%] Built target ament_cmake_python_copy_arm_interfaces
+[2.524s] [  2%] Built target arm_interfaces__rosidl_generator_type_description
+[2.535s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.541s] running egg_info
+[2.541s] creating arm_interfaces.egg-info
+[2.544s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.553s] writing arm_interfaces.egg-info/PKG-INFO
+[2.553s] writing dependency_links to arm_interfaces.egg-info/dependency_links.txt
+[2.553s] writing top-level names to arm_interfaces.egg-info/top_level.txt
+[2.553s] writing manifest file 'arm_interfaces.egg-info/SOURCES.txt'
+[2.584s] reading manifest file 'arm_interfaces.egg-info/SOURCES.txt'
+[2.584s] writing manifest file 'arm_interfaces.egg-info/SOURCES.txt'
+[2.604s] [  8%] Built target ament_cmake_python_build_arm_interfaces_egg
+[2.691s] [  8%] Built target arm_interfaces__cpp
+[2.702s] [ 11%] [32mBuilding C object CMakeFiles/arm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arm_interfaces/msg/detail/pose_command__type_support.c.o[0m
+[2.703s] [ 14%] [32mBuilding C object CMakeFiles/arm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arm_interfaces/msg/detail/pose_command__functions.c.o[0m
+[2.704s] [ 17%] [32mBuilding C object CMakeFiles/arm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arm_interfaces/msg/detail/pose_command__description.c.o[0m
+[2.758s] [ 20%] [32m[1mLinking C shared library libarm_interfaces__rosidl_generator_c.so[0m
+[2.788s] [ 20%] Built target arm_interfaces__rosidl_generator_c
+[2.796s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.796s] [ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.796s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.796s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.797s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.797s] [ 38%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.947s] [ 41%] [32mBuilding CXX object CMakeFiles/arm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arm_interfaces/msg/pose_command__type_support.cpp.o[0m
+[2.948s] [ 44%] [32mBuilding CXX object CMakeFiles/arm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/arm_interfaces/msg/pose_command__type_support.cpp.o[0m
+[2.957s] [ 47%] [32mBuilding C object CMakeFiles/arm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arm_interfaces/msg/detail/pose_command__type_support.c.o[0m
+[2.958s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arm_interfaces/msg/detail/pose_command__type_support.cpp.o[0m
+[2.965s] [ 52%] [32mBuilding CXX object CMakeFiles/arm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arm_interfaces/msg/detail/dds_fastrtps/pose_command__type_support.cpp.o[0m
+[2.973s] [ 55%] [32mBuilding CXX object CMakeFiles/arm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arm_interfaces/msg/detail/pose_command__type_support_c.cpp.o[0m
+[2.985s] [ 58%] [32m[1mLinking CXX shared library libarm_interfaces__rosidl_typesupport_c.so[0m
+[2.986s] [ 61%] [32m[1mLinking C shared library libarm_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.015s] [ 61%] Built target arm_interfaces__rosidl_typesupport_introspection_c
+[3.019s] [ 61%] Built target arm_interfaces__rosidl_typesupport_c
+[3.131s] [ 64%] [32m[1mLinking CXX shared library libarm_interfaces__rosidl_typesupport_cpp.so[0m
+[3.165s] [ 67%] [32m[1mLinking CXX shared library libarm_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.170s] [ 67%] Built target arm_interfaces__rosidl_typesupport_cpp
+[3.201s] [ 67%] Built target arm_interfaces__rosidl_typesupport_introspection_cpp
+[3.243s] [ 70%] [32m[1mLinking CXX shared library libarm_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.260s] [ 73%] [32m[1mLinking CXX shared library libarm_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.279s] [ 73%] Built target arm_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.295s] [ 73%] Built target arm_interfaces__rosidl_typesupport_fastrtps_c
+[3.311s] [ 73%] Built target arm_interfaces
+[3.330s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.511s] [ 76%] Built target arm_interfaces__py
+[3.528s] [ 79%] [32mBuilding C object CMakeFiles/arm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/arm_interfaces/msg/_pose_command_s.c.o[0m
+[3.616s] [ 82%] [32m[1mLinking C shared library libarm_interfaces__rosidl_generator_py.so[0m
+[3.647s] [ 82%] Built target arm_interfaces__rosidl_generator_py
+[3.664s] [ 85%] [32mBuilding C object CMakeFiles/arm_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/arm_interfaces/_arm_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.664s] [ 88%] [32mBuilding C object CMakeFiles/arm_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/arm_interfaces/_arm_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.664s] [ 91%] [32mBuilding C object CMakeFiles/arm_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/arm_interfaces/_arm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.732s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/arm_interfaces/arm_interfaces_s__rosidl_typesupport_c.so[0m
+[3.732s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/arm_interfaces/arm_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.734s] [100%] [32m[1mLinking C shared module rosidl_generator_py/arm_interfaces/arm_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[3.756s] [100%] Built target arm_interfaces_s__rosidl_typesupport_c
+[3.756s] [100%] Built target arm_interfaces_s__rosidl_typesupport_introspection_c
+[3.756s] [100%] Built target arm_interfaces_s__rosidl_typesupport_fastrtps_c
+[3.766s] Invoked command in '/home/shreyas/arm/build/arm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shreyas/arm/build/arm_interfaces -- -j20 -l20
+[3.768s] Invoking command in '/home/shreyas/arm/build/arm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shreyas/arm/build/arm_interfaces
+[3.774s] -- Install configuration: ""
+[3.775s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/ament_index/resource_index/rosidl_interfaces/arm_interfaces
+[3.775s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/msg/PoseCommand.json
+[3.775s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces
+[3.775s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg
+[3.775s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail
+[3.775s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__description.c
+[3.775s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__struct.h
+[3.775s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__type_support.c
+[3.775s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__functions.h
+[3.775s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__functions.c
+[3.775s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__type_support.h
+[3.775s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.775s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/pose_command.h
+[3.775s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/environment/library_path.sh
+[3.775s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/environment/library_path.dsv
+[3.776s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_generator_c.so
+[3.776s] -- Set non-toolchain portion of runtime path of "/home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_generator_c.so" to ""
+[3.776s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces
+[3.776s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg
+[3.776s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail
+[3.776s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__rosidl_typesupport_fastrtps_c.h
+[3.776s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.776s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.776s] -- Set non-toolchain portion of runtime path of "/home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.776s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces
+[3.776s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg
+[3.776s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail
+[3.776s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__type_support.c
+[3.776s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__rosidl_typesupport_introspection_c.h
+[3.776s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.777s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_introspection_c.so
+[3.777s] -- Set non-toolchain portion of runtime path of "/home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.777s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_c.so
+[3.777s] -- Set non-toolchain portion of runtime path of "/home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_c.so" to ""
+[3.777s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces
+[3.777s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg
+[3.777s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail
+[3.777s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__struct.hpp
+[3.777s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__traits.hpp
+[3.777s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__type_support.hpp
+[3.777s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__builder.hpp
+[3.777s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/pose_command.hpp
+[3.777s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.777s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces
+[3.777s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg
+[3.777s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail
+[3.777s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__rosidl_typesupport_fastrtps_cpp.hpp
+[3.777s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/dds_fastrtps
+[3.777s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.777s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.777s] -- Set non-toolchain portion of runtime path of "/home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.777s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces
+[3.777s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg
+[3.777s] -- Up-to-date: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail
+[3.777s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__rosidl_typesupport_introspection_cpp.hpp
+[3.777s] -- Installing: /home/shreyas/arm/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/pose_command__type_support.cpp
+[3.777s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.777s] -- Set non-toolchain portion of runtime path of "/home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_cpp.so
+[3.778s] -- Set non-toolchain portion of runtime path of "/home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/environment/pythonpath.sh
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/environment/pythonpath.dsv
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces-0.0.0-py3.12.egg-info
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg/_pose_command_s.c
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg/_pose_command.py
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg/__init__.py
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.778s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/_arm_interfaces_s.ep.rosidl_typesupport_c.c
+[3.779s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/_arm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.779s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/_arm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.779s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_c.so
+[3.779s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/__init__.py
+[3.808s] Listing '/home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces'...
+[3.809s] Compiling '/home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/__init__.py'...
+[3.809s] Listing '/home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg'...
+[3.809s] Compiling '/home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg/__init__.py'...
+[3.809s] Compiling '/home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg/_pose_command.py'...
+[3.812s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.812s] -- Set non-toolchain portion of runtime path of "/home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.813s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.814s] -- Set non-toolchain portion of runtime path of "/home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_c.so
+[3.814s] -- Set non-toolchain portion of runtime path of "/home/shreyas/arm/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_c.so" to ""
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_generator_py.so
+[3.814s] -- Set non-toolchain portion of runtime path of "/home/shreyas/arm/install/arm_interfaces/lib/libarm_interfaces__rosidl_generator_py.so" to ""
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/msg/PoseCommand.idl
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/msg/PoseCommand.msg
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/ament_index/resource_index/package_run_dependencies/arm_interfaces
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/ament_index/resource_index/parent_prefix_path/arm_interfaces
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/environment/ament_prefix_path.sh
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/environment/ament_prefix_path.dsv
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/environment/path.sh
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/environment/path.dsv
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/local_setup.bash
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/local_setup.sh
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/local_setup.zsh
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/local_setup.dsv
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/package.dsv
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/ament_index/resource_index/packages/arm_interfaces
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_generator_cExport.cmake
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_cExport.cmake
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.814s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_generator_cppExport.cmake
+[3.815s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.815s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.815s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.815s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.815s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_cppExport.cmake
+[3.815s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.815s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_generator_pyExport.cmake
+[3.815s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.815s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.815s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.815s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.815s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.815s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.816s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.816s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.816s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfacesConfig.cmake
+[3.816s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfacesConfig-version.cmake
+[3.816s] -- Installing: /home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/package.xml
+[3.819s] Invoked command in '/home/shreyas/arm/build/arm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shreyas/arm/build/arm_interfaces

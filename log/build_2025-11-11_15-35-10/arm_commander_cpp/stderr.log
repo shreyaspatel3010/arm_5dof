@@ -1,0 +1,7 @@
+[01m[K/home/shreyas/arm/src/arm_commander_cpp/src/pose_goal.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/shreyas/arm/src/arm_commander_cpp/src/pose_goal.cpp:45:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::planning_interface::MoveItErrorCode[m[K’ has not been declared
+   45 |   if (error_code == moveit::planning_interface::[01;31m[KMoveItErrorCode[m[K::SUCCESS)
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pose_goal.dir/build.make:76: CMakeFiles/pose_goal.dir/src/pose_goal.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/pose_goal.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

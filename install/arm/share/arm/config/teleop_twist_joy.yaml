@@ -1,0 +1,31 @@
+# teleop_twist_joy config for a typical Xbox-style controller (ROS 2)
+teleop_twist_joy_node:
+  ros__parameters:
+    enable_button: 5       # LB to enable
+    enable_turbo_button: 6 # RB for turbo
+    axis_linear:
+      x: 1  # left stick vertical
+      y: 0  # left stick horizontal
+      z: 4  # right trigger (useful for gripper proxy)
+    scale_linear:
+      x: 0.6
+      y: 0.6
+      z: 1.0
+    scale_linear_turbo:
+      x: 1.2
+      y: 1.2
+      z: 1.0
+    axis_angular:
+      yaw: 3   # right stick horizontal
+      pitch: 7 # D-pad vertical (optional)
+      roll: 6  # D-pad horizontal (optional)
+    scale_angular:
+      yaw: 0.8
+      pitch: 0.8
+      roll: 0.8
+    scale_angular_turbo:
+      yaw: 1.2
+      pitch: 1.2
+      roll: 1.2
+    require_enable_button: true
+    publish_stamped: false   # publishes geometry_msgs/Twist on /cmd_vel

@@ -1,0 +1,71 @@
+[0.005s] Invoking command in '/home/shreyas/arm/build/arm_commander_cpp': CMAKE_PREFIX_PATH=/home/shreyas/arm/install/arm_interfaces:/home/shreyas/arm/install/arm_bringup:/home/shreyas/arm/install/arm_moveit:/home/shreyas/arm/install/arm_commander_cpp:/home/shreyas/arm/install/arm:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shreyas/arm/src/arm_commander_cpp -DCMAKE_INSTALL_PREFIX=/home/shreyas/arm/install/arm_commander_cpp
+[0.044s] -- The C compiler identification is GNU 13.3.0
+[0.080s] -- The CXX compiler identification is GNU 13.3.0
+[0.090s] -- Detecting C compiler ABI info
+[0.149s] -- Detecting C compiler ABI info - done
+[0.155s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.155s] -- Detecting C compile features
+[0.156s] -- Detecting C compile features - done
+[0.163s] -- Detecting CXX compiler ABI info
+[0.235s] -- Detecting CXX compiler ABI info - done
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.243s] -- Detecting CXX compile features - done
+[0.247s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.360s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.445s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.484s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.496s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.518s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.580s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.583s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.607s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.657s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[0.750s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[0.978s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.025s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.035s] -- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.061s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.110s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.110s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.130s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.248s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[1.283s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[1.368s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[1.415s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.430s] -- Found arm_interfaces: 0.0.0 (/home/shreyas/arm/install/arm_interfaces/share/arm_interfaces/cmake)
+[1.499s] -- Configuring done (1.5s)
+[1.525s] -- Generating done (0.0s)
+[1.530s] -- Build files have been written to: /home/shreyas/arm/build/arm_commander_cpp
+[1.542s] Invoked command in '/home/shreyas/arm/build/arm_commander_cpp' returned '0': CMAKE_PREFIX_PATH=/home/shreyas/arm/install/arm_interfaces:/home/shreyas/arm/install/arm_bringup:/home/shreyas/arm/install/arm_moveit:/home/shreyas/arm/install/arm_commander_cpp:/home/shreyas/arm/install/arm:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shreyas/arm/src/arm_commander_cpp -DCMAKE_INSTALL_PREFIX=/home/shreyas/arm/install/arm_commander_cpp
+[1.542s] Invoking command in '/home/shreyas/arm/build/arm_commander_cpp': CMAKE_PREFIX_PATH=/home/shreyas/arm/install/arm_interfaces:/home/shreyas/arm/install/arm_bringup:/home/shreyas/arm/install/arm_moveit:/home/shreyas/arm/install/arm_commander_cpp:/home/shreyas/arm/install/arm:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shreyas/arm/build/arm_commander_cpp -- -j20 -l20
+[1.586s] [ 25%] [32mBuilding CXX object CMakeFiles/test_moveit.dir/src/test_moveit.cpp.o[0m
+[1.587s] [ 50%] [32mBuilding CXX object CMakeFiles/commander.dir/src/commander_template.cpp.o[0m
+[5.114s] [ 75%] [32m[1mLinking CXX executable test_moveit[0m
+[5.350s] [ 75%] Built target test_moveit
+[9.562s] [100%] [32m[1mLinking CXX executable commander[0m
+[10.053s] [100%] Built target commander
+[10.062s] Invoked command in '/home/shreyas/arm/build/arm_commander_cpp' returned '0': CMAKE_PREFIX_PATH=/home/shreyas/arm/install/arm_interfaces:/home/shreyas/arm/install/arm_bringup:/home/shreyas/arm/install/arm_moveit:/home/shreyas/arm/install/arm_commander_cpp:/home/shreyas/arm/install/arm:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shreyas/arm/build/arm_commander_cpp -- -j20 -l20
+[10.063s] Invoking command in '/home/shreyas/arm/build/arm_commander_cpp': CMAKE_PREFIX_PATH=/home/shreyas/arm/install/arm_interfaces:/home/shreyas/arm/install/arm_bringup:/home/shreyas/arm/install/arm_moveit:/home/shreyas/arm/install/arm_commander_cpp:/home/shreyas/arm/install/arm:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shreyas/arm/build/arm_commander_cpp
+[10.070s] -- Install configuration: ""
+[10.070s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/lib/arm_commander_cpp/test_moveit
+[10.071s] -- Set non-toolchain portion of runtime path of "/home/shreyas/arm/install/arm_commander_cpp/lib/arm_commander_cpp/test_moveit" to ""
+[10.071s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/lib/arm_commander_cpp/commander
+[10.076s] -- Set non-toolchain portion of runtime path of "/home/shreyas/arm/install/arm_commander_cpp/lib/arm_commander_cpp/commander" to ""
+[10.076s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/share/ament_index/resource_index/package_run_dependencies/arm_commander_cpp
+[10.076s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/share/ament_index/resource_index/parent_prefix_path/arm_commander_cpp
+[10.076s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/share/arm_commander_cpp/environment/ament_prefix_path.sh
+[10.076s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/share/arm_commander_cpp/environment/ament_prefix_path.dsv
+[10.076s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/share/arm_commander_cpp/environment/path.sh
+[10.077s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/share/arm_commander_cpp/environment/path.dsv
+[10.077s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/share/arm_commander_cpp/local_setup.bash
+[10.077s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/share/arm_commander_cpp/local_setup.sh
+[10.077s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/share/arm_commander_cpp/local_setup.zsh
+[10.077s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/share/arm_commander_cpp/local_setup.dsv
+[10.077s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/share/arm_commander_cpp/package.dsv
+[10.077s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/share/ament_index/resource_index/packages/arm_commander_cpp
+[10.077s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/share/arm_commander_cpp/cmake/arm_commander_cppConfig.cmake
+[10.077s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/share/arm_commander_cpp/cmake/arm_commander_cppConfig-version.cmake
+[10.077s] -- Installing: /home/shreyas/arm/install/arm_commander_cpp/share/arm_commander_cpp/package.xml
+[10.080s] Invoked command in '/home/shreyas/arm/build/arm_commander_cpp' returned '0': CMAKE_PREFIX_PATH=/home/shreyas/arm/install/arm_interfaces:/home/shreyas/arm/install/arm_bringup:/home/shreyas/arm/install/arm_moveit:/home/shreyas/arm/install/arm_commander_cpp:/home/shreyas/arm/install/arm:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shreyas/arm/build/arm_commander_cpp

@@ -1,0 +1,6 @@
+{
+  "package_name": "arm_interfaces",
+  "non_idl_tuples": [
+    "/home/shreyas/arm/src/arm_interfaces:msg/PoseCommand.msg"
+  ]
+}

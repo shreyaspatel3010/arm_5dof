@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Paths -->
+  <let name="urdf_path"
+       value="$(find-pkg-share arm)/urdf/my_robot.urdf.xacro" />
+  <let name="rviz_config_path"
+       value="$(find-pkg-share arm_bringup)/config/urdf_config.rviz" />
+  <let name="controller_config_path"
+       value="$(find-pkg-share arm_bringup)/config/ros2_controllers.yaml" />
+
+  <!-- Robot State Publisher -->
+  <node pkg="robot_state_publisher" exec="robot_state_publisher" output="screen">
+    <param name="robot_description"
+           value="$(command 'xacro $(var urdf_path)')" />
+  </node>
+
+  <!-- ros2_control + controllers -->
+  <node pkg="controller_manager" exec="ros2_control_node" output="screen">
+    <param from="$(var controller_config_path)" />
+  </node>
+
+  <node pkg="controller_manager" exec="spawner" args="joint_state_broadcaster" output="screen" />
+  <node pkg="controller_manager" exec="spawner" args="arm_controller" output="screen" />
+  <node pkg="controller_manager" exec="spawner" args="gripper_controller" output="screen" />
+
+  <!-- MoveIt move_group (uses arm_moveit config: SRDF, kinematics, controllers, etc.) -->
+  <include file="$(find-pkg-share arm_moveit)/launch/move_group.launch.py" />
+
+  <!-- MoveIt RViz (RViz with correct MoveIt params) -->
+  <!-- Adjust arg name if your moveit_rviz.launch.py uses a different one (e.g. rviz_config_file) -->
+  <include file="$(find-pkg-share arm_moveit)/launch/moveit_rviz.launch.py">
+    <arg name="rviz_config" value="$(var rviz_config_path)" />
+  </include>
+
+</launch>
