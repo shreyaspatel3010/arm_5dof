@@ -1,1 +1,0 @@
-controller_manager:geometry_msgs:interactive_markers:joint_position_controller:joint_state_publisher:joint_state_publisher_gui:nav_msgs:rclpy:robot_localization:robot_state_publisher:ros2_control:ros2_controllers:ros_gz_bridge:ros_gz_sim:rviz2:sensor_msgs:std_msgs:tf2_ros:visualization_msgs:xacro

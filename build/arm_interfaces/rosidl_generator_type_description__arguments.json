@@ -1,7 +1,0 @@
-{
-  "package_name": "arm_interfaces",
-  "output_dir": "/home/shreyas/arm/build/arm_interfaces/rosidl_generator_type_description/arm_interfaces",
-  "idl_tuples": [
-    "/home/shreyas/arm/build/arm_interfaces/rosidl_adapter/arm_interfaces:msg/PoseCommand.idl"
-  ]
-}
