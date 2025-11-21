@@ -26,6 +26,8 @@
   <!-- MoveIt move_group (uses arm_moveit config: SRDF, kinematics, controllers, etc.) -->
   <include file="$(find-pkg-share arm_moveit)/launch/move_group.launch.py" />
 
+  
+
   <!-- MoveIt RViz (RViz with correct MoveIt params) -->
   <!-- Adjust arg name if your moveit_rviz.launch.py uses a different one (e.g. rviz_config_file) -->
   <include file="$(find-pkg-share arm_moveit)/launch/moveit_rviz.launch.py">
