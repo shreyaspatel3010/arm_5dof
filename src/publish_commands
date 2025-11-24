@@ -1,0 +1,4 @@
+ros2 topic pub -1 /pose_command arm_interfaces/msg/PoseCommand "{x: 0.0, y: -0.7, z: 0.1, roll: 3.17,  pitch: 0.0, yaw: 0.0, cartesian_path: false}"
+
+
+ros2 topic pub -1 /open_gripper example_interfaces/msg/Bool "{data: true}"
