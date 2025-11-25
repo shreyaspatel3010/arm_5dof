@@ -1,0 +1,8 @@
+<library path="arm_teensy_hardware">
+  <class
+    name="arm_teensy_hardware/ArmTeensySystem"
+    type="arm_teensy_hardware::ArmTeensySystem"
+    base_class_type="hardware_interface::SystemInterface">
+    <description>Teensy 4.1 interface for the arm servos.</description>
+  </class>
+</library>

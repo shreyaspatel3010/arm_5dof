@@ -4,10 +4,20 @@
       <xacro:property name="initial_positions_file" value="$(find arm_moveit)/config/initial_positions.yaml"/>
       <xacro:property name="initial_positions" value="${xacro.load_yaml(initial_positions_file)['initial_positions']}"/>
 
+        <xacro:arg name="use_simulation" default="false" />
+      
+
         <ros2_control name="arm" type="system">
             <hardware>
+              <xacro:if value="${use_simulation}">
                 <!-- By default, set up controllers for simulation. This won't work on real hardware -->
                 <plugin>mock_components/GenericSystem</plugin>
+              </xacro:if>
+              <xacro:unless value="${use_simulation}">
+                <plugin>arm_teensy_hardware/ArmTeensySystem</plugin>
+                <param name="port">/dev/ttyACM0</param>
+                <param name="baudrate">115200</param>
+              </xacro:unless>
             </hardware>
             <joint name="arm_base_joint">
                 <command_interface name="position"/>
